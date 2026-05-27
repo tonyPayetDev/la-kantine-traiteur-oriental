@@ -88,8 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const category = btn.dataset.filter;
       productCards.forEach(card => {
-        const cardCat = card.dataset.category;
-        if (category === 'all' || cardCat === category) {
+        const cardCats = (card.dataset.category || '').split(' ');
+        if (category === 'all' || cardCats.includes(category)) {
           card.classList.remove('hidden');
           card.style.display = '';
         } else {

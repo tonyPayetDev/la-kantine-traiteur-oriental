@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Découvrez LA KANTINE, votre traiteur oriental proposant des plats savoureux, desserts et boissons à prix abordables. Commandez en ligne ou sur place.">
+  <meta name="description" content="Découvrez LA KANTINE, votre traiteur oriental proposant des plats savoureux à prix abordables, avec restauration sur place ou à emporter.">
   <meta name="keywords" content="traiteur oriental, La Réunion, couscous, tajine, traiteur réunion, cuisine orientale, commande en ligne, lakantine">
   <meta name="author" content="LA KANTINE">
   <meta property="og:title" content="LA KANTINE - Traiteur Oriental de Qualité à Prix Raisonnable">
@@ -118,7 +118,7 @@
 
         <div class="hero-stats" aria-label="Chiffres clés">
           <div class="hero-stat">
-            <span class="hero-stat-number">40+</span>
+            <span class="hero-stat-number">47+</span>
             <span class="hero-stat-label">Produits au menu</span>
           </div>
           <div class="hero-stat">
@@ -199,11 +199,11 @@
   <section id="specialites" class="specialties">
     <div class="container">
       <div class="specialties-header">
-        <span class="section-tag">Ce que nous offrons</span>
-        <h2 class="section-title">Nos <span>Spécialités</span> Traiteur</h2>
+        <span class="section-tag">Présentation de LA KANTINE</span>
+        <h2 class="section-title">La Qualité Traiteur<br><span>à Prix Raisonnable</span></h2>
         <p class="section-desc">
-          Profitez d'une large sélection de plats orientaux, entrées, desserts et boissons,
-          préparés avec soin pour garantir fraîcheur et qualité.
+          LA KANTINE offre une cuisine traiteur orientale de qualité, alliant saveurs authentiques et prix raisonnables.
+          Profitez d'une restauration sur place ou à emporter, avec un engagement éthique en proposant les invendus à la Croix Rouge.
         </p>
       </div>
 
@@ -292,7 +292,7 @@
 
       <div style="text-align:center; margin-top:48px;">
         <a href="#menu" class="btn btn-dark">
-          Découvrez notre menu et commandez dès maintenant
+          Découvrez notre menu et commandez dès maintenant !
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
             <line x1="5" y1="12" x2="19" y2="12"></line>
             <polyline points="12 5 19 12 12 19"></polyline>
@@ -308,7 +308,10 @@
       <div class="menu-header">
         <div>
           <span class="section-tag">Notre sélection</span>
-          <h2 class="section-title">Notre <span>Menu</span> Complet</h2>
+          <h2 class="section-title">Nos <span>Produits</span></h2>
+          <p class="section-desc" style="margin-top:8px;">
+            Explorez notre sélection variée de plats, entrées, desserts et boissons. Nos nouveautés incluent des yaourts aux fruits rouges, mousses au chocolat, gâteaux citron et chocolat, ainsi que des boissons chaudes et froides.
+          </p>
         </div>
         <div class="menu-filters" role="group" aria-label="Filtrer par catégorie">
           <button class="filter-btn active" data-filter="all">Tout voir</button>
@@ -316,6 +319,7 @@
           <button class="filter-btn" data-filter="entrees">Entrées</button>
           <button class="filter-btn" data-filter="desserts">Desserts</button>
           <button class="filter-btn" data-filter="boissons">Boissons</button>
+          <button class="filter-btn" data-filter="nouveautes">Nouveautés</button>
         </div>
       </div>
 
@@ -544,6 +548,95 @@
           </div>
         </article>
 
+        <!-- NOUVEAUTÉS -->
+        <article class="product-card reveal" data-category="nouveautes desserts" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag" style="background:var(--secondary);color:var(--primary);">Nouveau</span>
+            <img
+              src="assets/images/yaourt.png"
+              alt="Yaourt aux fruits rouges - nouveauté LA KANTINE traiteur oriental"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Yaourt aux Fruits Rouges</h3>
+            <p class="product-desc">Yaourt onctueux aux fruits rouges frais, légèrement sucré pour un plaisir sain et gourmand.</p>
+            <div class="product-footer">
+              <div class="product-price">2,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Yaourt aux Fruits Rouges au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-category="nouveautes desserts" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag" style="background:var(--secondary);color:var(--primary);">Nouveau</span>
+            <img
+              src="assets/images/mousse-chocolat.png"
+              alt="Mousse au chocolat maison - nouveauté LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Mousse au Chocolat</h3>
+            <p class="product-desc">Mousse au chocolat noir aérienne et fondante, préparée chaque jour avec du chocolat de qualité.</p>
+            <div class="product-footer">
+              <div class="product-price">2,50 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Mousse au Chocolat au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-2" data-category="nouveautes desserts" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag" style="background:var(--secondary);color:var(--primary);">Nouveau</span>
+            <img
+              src="assets/images/gateau-citron.png"
+              alt="Gâteau au citron fondant - pâtisserie LA KANTINE traiteur oriental"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Gâteau Citron</h3>
+            <p class="product-desc">Gâteau moelleux au citron avec un glaçage acidulé, une douceur acidulée qui régale les papilles.</p>
+            <div class="product-footer">
+              <div class="product-price">3,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Gâteau Citron au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-3" data-category="nouveautes desserts" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag" style="background:var(--secondary);color:var(--primary);">Nouveau</span>
+            <img
+              src="assets/images/gateau-chocolat.png"
+              alt="Gâteau au chocolat fondant - pâtisserie LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Gâteau Chocolat</h3>
+            <p class="product-desc">Gâteau au chocolat dense et fondant, idéal pour les amateurs de chocolat intense et généreux.</p>
+            <div class="product-footer">
+              <div class="product-price">3,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Gâteau Chocolat au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
         <!-- BOISSONS -->
         <article class="product-card reveal" data-category="boissons" role="listitem">
           <div class="product-img-wrap">
@@ -633,6 +726,149 @@
           </div>
         </article>
 
+        <article class="product-card reveal" data-category="boissons" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag">Boissons</span>
+            <img
+              src="assets/images/fanta.png"
+              alt="Fanta 50cl - boisson fraîche LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Fanta 50 cl</h3>
+            <p class="product-desc">Boisson gazeuse à l'orange en bouteille de 50 cl, fraîche et fruitée.</p>
+            <div class="product-footer">
+              <div class="product-price">2,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Fanta au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-category="boissons" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag">Boissons</span>
+            <img
+              src="assets/images/cafe-long.png"
+              alt="Café long allongé - boisson chaude LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Café Long</h3>
+            <p class="product-desc">Café allongé doux et aromatique, parfait pour une pause prolongée.</p>
+            <div class="product-footer">
+              <div class="product-price">1,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Café Long au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-2" data-category="boissons" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag">Boissons</span>
+            <img
+              src="assets/images/eau-1l.png"
+              alt="Eau plate 1L - boisson LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Eau Plate 1 L</h3>
+            <p class="product-desc">Bouteille d'eau plate d'1 litre pour accompagner votre repas.</p>
+            <div class="product-footer">
+              <div class="product-price">1,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Eau Plate au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-3" data-category="boissons" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag">Boissons</span>
+            <img
+              src="assets/images/eau-petillante.png"
+              alt="Eau pétillante - boisson LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Eau Pétillante</h3>
+            <p class="product-desc">Eau gazeuse fraîche et légère pour accompagner vos plats en toute finesse.</p>
+            <div class="product-footer">
+              <div class="product-price">1,50 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Eau Pétillante au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="boissons" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag">Boissons</span>
+            <img
+              src="assets/images/eau-australine.png"
+              alt="Eau Australine de La Réunion - boisson locale LA KANTINE"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Eau Australine</h3>
+            <p class="product-desc">Eau minérale naturelle de La Réunion, fraîche et pure.</p>
+            <div class="product-footer">
+              <div class="product-price">1,50 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Eau Australine au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal reveal-delay-1" data-category="nouveautes desserts" role="listitem">
+          <div class="product-img-wrap">
+            <span class="product-category-tag" style="background:var(--secondary);color:var(--primary);">Nouveau</span>
+            <img
+              src="assets/images/salade-fruits.png"
+              alt="Salade de fruits frais de saison - dessert LA KANTINE traiteur"
+              loading="lazy"
+              width="300" height="190"
+            >
+          </div>
+          <div class="product-body">
+            <h3 class="product-name">Salade de Fruits</h3>
+            <p class="product-desc">Assortiment de fruits frais de saison, légèrement sucré, pour une fin de repas légère et colorée.</p>
+            <div class="product-footer">
+              <div class="product-price">3,00 €</div>
+              <button class="add-to-cart" aria-label="Ajouter Salade de Fruits au panier">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 01-8 0"></path></svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div style="text-align:center; margin-top:48px;">
+        <a href="https://www.lakantine.re/shop/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 01-8 0"></path>
+          </svg>
+          Parcourez notre boutique et ajoutez vos favoris au panier.
+        </a>
       </div>
     </div>
   </section>
@@ -859,11 +1095,11 @@
         </div>
 
         <div class="eco-content reveal reveal-delay-1">
-          <span class="section-tag">Notre engagement</span>
-          <h2 class="section-title">Éco-<span>Responsable</span></h2>
+          <span class="section-tag">Services et Engagements</span>
+          <h2 class="section-title">Notre <span>Démarche</span><br>Éthique</h2>
           <p class="section-desc">
-            Chez LA KANTINE, nous croyons qu'une bonne cuisine va de pair avec une conscience sociale et environnementale.
-            Notre démarche va bien au-delà de la simple préparation de plats savoureux.
+            Nous proposons un service de restauration sur place ou à emporter, avec une attention particulière à la qualité
+            et à la satisfaction client. Nos invendus sont reversés à la Croix Rouge, soulignant notre engagement social.
           </p>
 
           <div class="eco-highlight">
@@ -876,7 +1112,14 @@
             </p>
           </div>
 
-          <a href="https://www.lakantine.re/" target="_blank" rel="noopener noreferrer" class="btn btn-dark">
+          <a href="#contact" class="btn btn-dark">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            Contactez-nous pour plus d'informations ou pour passer commande.
+          </a>
+          <a href="https://www.lakantine.re/" target="_blank" rel="noopener noreferrer" class="btn btn-dark" style="margin-top:12px;">
             En savoir plus sur notre démarche
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12"></line>
